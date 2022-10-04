@@ -4,12 +4,12 @@
 
 using namespace std;
 
-void mainManu();
+void mainMenu();
 
 class Management{
     public:
         Management(){
-            mainManu();
+            mainMenu();
         }
 };
 
@@ -103,10 +103,10 @@ class registration{
                         cin>>back;
 
                         if(back==1){
-                            mainManu();
+                            mainMenu();
                         }
                         else{
-                            mainManu();
+                            mainMenu();
                         }
                     }
                     case 2:
@@ -151,10 +151,10 @@ class registration{
                         cin>>back;
 
                         if(back==1){
-                            mainManu();
+                            mainMenu();
                         }
                         else{
-                            mainManu();
+                            mainMenu();
                         }
                     }
                     case 3:
@@ -183,10 +183,10 @@ class registration{
                         cin>>back;
 
                         if(back==1){
-                            mainManu();
+                            mainMenu();
                         }
                         else{
-                            mainManu();
+                            mainMenu();
                         }
                     }
                     case 4:
@@ -231,10 +231,10 @@ class registration{
                         cin>>back;
 
                         if(back==1){
-                            mainManu();
+                            mainMenu();
                         }
                         else{
-                            mainManu();
+                            mainMenu();
                         }
                     }
                     case 5:
@@ -279,10 +279,10 @@ class registration{
                         cin>>back;
 
                         if(back==1){
-                            mainManu();
+                            mainMenu();
                         }
                         else{
-                            mainManu();
+                            mainMenu();
                         }
                     }
                     case 6:
@@ -327,16 +327,16 @@ class registration{
                         cin>>back;
 
                         if(back==1){
-                            mainManu();
+                            mainMenu();
                         }
                         else{
-                            mainManu();
+                            mainMenu();
                         }
                     }
                     default:
                     {
                         cout<<"Invalid input, shifting you to the main menu!"<<endl;
-                        mainManu();
+                        mainMenu();
                         break;
                     }
             }
@@ -431,7 +431,7 @@ void mainMenu(){
             cout<<"Press any key to go back to Main menu ";
             cin>>back;
             if(back==1){
-                mainManu();
+                mainMenu();
             }
             else{
                 mainMenu();
@@ -458,10 +458,10 @@ void mainMenu(){
             cin>>back;
                 if(back==1)
                 {
-                    mainManu();
+                    mainMenu();
                 }
                 else{
-                    mainManu();
+                    mainMenu();
                 }
             }
             else
